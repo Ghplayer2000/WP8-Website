@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
+  font-weight: 300;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+a {
+  padding-left: 16px;
+  font-weight: 300;
+  display: block;
+}
+
+.link {
+  color: blueviolet;
+  display: inline;
+  padding: 0px;
+}
+
+.linkparent {
+  display: inline;
+}
+
+.top {
+  position: sticky;
+}
+
+h5, h1 {
+  padding: 0px;
+  padding-left: 16px;
+  margin: 0px;
+}
+h2 {
+  font-weight: 300;
+  padding: 0px;
+  padding-left: 16px;
+}
+h5 {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 16px;
+}
+h1{
+  font-weight: 300;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+button {
+  padding: 8px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  background-color: black;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.appbarbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  text-align: center;
+  background-color: #1F1F1F;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+.appbar {
+  padding-left: 0px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #1F1F1F;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(132deg) brightness(103%) contrast(103%);
+}
