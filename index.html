@@ -8,38 +8,37 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="styles/main.css"/>
+  <link rel="stylesheet" href="styles/text.css"/>
+  <link rel="stylesheet" href="styles/button.css"/>
+  <link rel="stylesheet" href="styles/statusbar.css" />
   <title>WP</title>
 </head>
-<body>
+<body> 
+  <iframe id="statusbar" style="color: white;" src="comps/statusbar.html"></iframe>
   <header class="top">
     <h5>TITLE</h5>
     <h1>Main Title</h1>
   </header>
 
-  <h2>Main Heading</h2>
-  <section>
-    <a>Your Text Here</a>
-  </section>
-  <h2>Another Heading</h2>
+  <h2>Main Header</h2>
   <section>
     <a>Your Text Here</a>
   </section>
 
-  <h2>Section with Link</h2>
+  <h2>Another Header</h2>
   <section>
     <a class="linkparent">Text: <a class='link' href="https://example.com">Link</a></a>
   </section>
 
-  <!-- note: dont use white svgs or change the filter on the img tag (style.css)-->
-  <!-- light theme appbar not implemented -->
+  <button>Button</button>
   <div class="appbar">
-    <button class="appbarbutton"><img src="example.svg"></button>
+    <button class="appbarbutton"><img src="svgs/example.svg"></button>
     <button onclick="Lighttheme()" id="btn" style="margin-left: 8px;" class="appbarbutton">
-      <img style="transform: scale(2.0);" src="config.svg"> <!-- broken svg -->
+      <img style="transform: scale(2.0);" src="svgs/config.svg"> <!-- broken svg -->
     </button>
   </div>
 
-  <script src="script.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>

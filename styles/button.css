@@ -1,0 +1,19 @@
+button {
+  margin: 16px;
+  padding: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2.5px;
+  background-color: #00000000;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
